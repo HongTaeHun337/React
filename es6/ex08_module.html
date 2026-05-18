@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ex08_module.html -->
+
+    //ES6 Module
+    //- 코드를 별도의 파일로 분리해서 나누는 기술
+    //- import, export 키워드
+    //- 변수, 상수, 함수, 클래스 등 모든 요소를 개별 파일 작성
+
+    //- math.js
+
+    <script type="module">
+
+        //불러들이기
+        // import { PI } from './math.js';
+        // console.log(PI);
+
+        // import { PI as aaa } from './math.js';
+        // console.log(aaa);
+
+        // import { a, b } from './math.js';
+        // console.log(a, b);
+
+        // import PI from './math.js';
+        // console.log(PI);
+        // import aaa from './math.js';
+        // console.log(aaa);
+
+        // import { sum, substract } from './math.js';
+
+        // console.log(sum(10, 20));
+        // console.log(substract(10, 20));
+
+        import plus, { substract as minus, multiple } from './math.js';
+
+        console.log(plus(10, 20));
+        console.log(minus(10, 20));
+        console.log(multiple(10, 20));
+
+    </script>
+
+</body>
+</html>
