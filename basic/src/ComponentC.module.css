@@ -1,0 +1,18 @@
+/* ComponentC.module.css */
+
+/* 비추 > 처음부터 캐멀 사용 */
+.subject-color {
+
+}
+
+.mainTitle {
+    color: orange;
+}
+
+.mainContent {
+    color: greenyellow;
+}
+
+div {
+    background-color: gold;
+}
